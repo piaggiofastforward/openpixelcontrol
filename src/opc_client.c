@@ -22,7 +22,7 @@ specific language governing permissions and limitations under the License. */
 #include <sys/time.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include "opc.h"
+#include "openpixelcontrol/opc.h"
 
 /* Wait at most 0.5 second for a connection or a write. */
 #define OPC_SEND_TIMEOUT_MS 1000
